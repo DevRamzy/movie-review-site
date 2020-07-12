@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkgray;
+
+}
+
+nav {
+    height: 80px;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+label.logo {
+    color: rgb(83, 6, 6);
+    font-family: fantasy;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+}
+label.logo a {
+    color: rgb(83, 6, 6);
+}
+nav {
+    float: right;
+    margin-right: 20px;
+}
+
+nav {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav a {
+    color: black;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+a.active,a:hover {
+    background: grey;
+    transition: .5s;
+}
+
+.images-slide {
+    width: 100%;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    background-color: black;
+    position: relative;
+    overflow: scroll;
+
+}
+.slider-image {
+    transition: linear;
+}
